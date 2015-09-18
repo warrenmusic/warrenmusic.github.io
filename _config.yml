@@ -1,1 +1,3 @@
 exclude: ['Makefile', 'Gemfile', 'Gemfile.lock', 'CNAME']
+sass:
+  style: :compressed

@@ -3,45 +3,67 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn guitar, music theory and ear-training online.">
-    <title>warrenmusic | Online guitar lessons</title>
+    <meta name="description" content="warrenmusic">
+    <title>warrenmusic</title>
     <!-- Loading external fonts from Google for the time being... -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans|Montserrat">
     <link rel="stylesheet" href="css/cover.css">
   </head>
   <body>
-    <section id="video">
-      <div id="video-play">
-        <div id="video-play-button"></div>
-        Watch the Introduction
+    <div id="video-container">
+      <video id="video" src="warrenmusic-intro.m4v" controls></video>
+    </div>
+    <div id="poster">
+      <div id="play">
+        <div id="play-button"></div>
+        <div>Watch the Introduction</div>
       </div>
-    </section>
-    <section id="content">
-      <div id="content-main">
-        <div id="brand">warrenmusic</div>
-        <h1>An innovative way to learn music and guitar online</h1>
-        <div id="social">
-          <a href="https://twitter.com/warrenlain" title="Get updates on Twitter" target="_blank">
-            <img src="img/twitter-icon.png" alt="Twitter Icon">
-          </a>
-          <a href="https://www.facebook.com/warrenmusic" title="Get updates on Facebook" target="_blank">
-            <img src="img/facebook-icon.png" alt="Facebook Icon">
-          </a>
-          <a href="https://www.youtube.com/user/warrenmusic" title="Get updates on YouTube" target="_blank">
-            <img src="img/youtube-icon.png" alt="YouTube Icon">
-          </a>
-        </div>
-        <form id="email">
-          <input type="text" placeholder="Enter your email...">
-          <button type="submit">
-            Get the latest updates
-          </button>
-        </form>
-        <div id="blog-open">
-          <img src="img/read-blog-icon.png">
-          Read the Blog
-        </div>
+    </div>
+    <div id="content">
+      <nav>
+        <a href="#content">warrenmusic</a>
+        <a href="/blog/" title="Read the warrenmusic blog">blog</a>
+      </nav>
+      <h1>An innovative new way to learn music online</h1>
+      <form>
+        <p>
+          We're working on a home for the course and the community. Sign up
+          for the mailing list be updated when it's ready:
+        </p>
+        <input type="text" placeholder="Enter your email...">
+        <button type="submit">
+          Get the latest updates
+        </button>
+      </form>
+      <div id="social">
+        <a href="https://twitter.com/warrenlain" title="warrenmusic on Twitter" target="_blank">
+          <img src="img/twitter-icon.png" alt="Twitter Icon">
+        </a>
+        <a href="https://www.facebook.com/warrenmusic" title="warrenmusic on Facebook" target="_blank">
+          <img src="img/facebook-icon.png" alt="Facebook Icon">
+        </a>
+        <a href="https://www.youtube.com/user/warrenmusic" title="warrenmusic on YouTube" target="_blank">
+          <img src="img/youtube-icon.png" alt="YouTube Icon">
+        </a>
       </div>
-    </section>
+    </div>
+    <script>
+      window.onscroll = function (e) {
+        document.getElementById('poster').style.height = window.innerHeight + 'px';
+        var height = document.getElementById('content').offsetHeight;
+        document.getElementById('play').style.opacity = (height - window.pageYOffset * 6) / height;
+      };
+      window.onscroll();
+      document.getElementById('poster').addEventListener('click', function () {
+        var video = document.getElementById('video');
+        video.addEventListener('play', function () {
+          document.body.className = 'video-playing';
+        });
+        video.addEventListener('pause', function () {
+          document.body.className = '';
+        });
+        video.play();
+      });
+    </script>
   </body>
 </html>

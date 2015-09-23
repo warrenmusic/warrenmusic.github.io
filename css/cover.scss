@@ -8,6 +8,8 @@
 
 body {
   background: #777;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 #video-container {
@@ -19,7 +21,19 @@ body {
   background: #333;
 }
 
+@include keyframes(videoFadeIn) {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .video-playing #video-container {
+  @include animation-name(videoFadeIn);
+  @include animation-duration(1s);
   display: block;
 }
 
@@ -175,6 +189,16 @@ button {
 }
 
 @media screen and (min-width: 950px) {
+  @include keyframes(contentSlideOut) {
+    from {
+      right: 0;
+    }
+
+    to {
+      right: -100%;
+    }
+  }
+
   #poster {
     height: 100%;
     position: fixed;
@@ -193,12 +217,17 @@ button {
     background: transparentize($color-blue, .1);
   }
 
+  .video-playing #content {
+    @include animation-name(contentSlideOut);
+    @include animation-duration(1s);
+  }
+
   nav a:first-child {
     background: none;
   }
 
   nav a:last-child::after {
-    content: ' ›'
+    content: ' ›';
   }
 
   @media screen and (min-height: 600px) {

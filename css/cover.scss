@@ -70,6 +70,10 @@ video {
   }
 }
 
+#poster:hover #play-button {
+  opacity: .9;
+}
+
 #content {
   position: absolute;
   top: calc(100% - 60px);
@@ -148,6 +152,10 @@ button {
   color: white;
   text-decoration: none;
   margin-right: 15px;
+
+  &:hover {
+    opacity: .8;
+  }
 }
 
 #social img {

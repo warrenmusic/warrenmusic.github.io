@@ -26,9 +26,11 @@ a {
 }
 
 nav {
-  @include span-columns(8);
-  @include shift(4);
-  @include pad(0 0 0 2rem)
+  @include media(min-width 800px) {
+    @include span-columns(8);
+    @include shift(4);
+  }
+  @include pad(0 0 0 2rem);
 }
 
 #brand {
@@ -44,8 +46,12 @@ nav {
 }
 
 #sidebar {
-  @include span-columns(4);
-  @include pad(2rem 1rem 0 2rem);
+  @include media(min-width 800px) {
+    @include span-columns(4);
+    @include pad(2rem 1rem 0 2rem);
+    display: block;
+  }
+  display: none;
 }
 
 #sidebar strong {
@@ -93,8 +99,12 @@ nav {
 }
 
 #posts {
-  @include span-columns(8);
-  @include pad(2rem 0 3rem 2rem);
+  @include media(min-width 800px) {
+    @include span-columns(8);
+    @include pad(2rem 0 3rem 2rem);
+  }
+  @include pad(2rem 2rem 3rem 2rem);
+  max-width: 600px;
 }
 
 #posts article {

@@ -94,7 +94,7 @@ nav {
 
 #posts {
   @include span-columns(8);
-  @include pad(2rem 0 0 2rem);
+  @include pad(2rem 0 3rem 2rem);
 }
 
 #posts article {
@@ -110,4 +110,8 @@ nav {
 .meta {
   font-size: .8rem;
   color: #777;
+}
+
+#share {
+  padding-top: 1rem;
 }

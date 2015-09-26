@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,36 +35,24 @@
         </form>
       </div>
       <div id="posts">
-        <article>
-          <h1><a href="/">What Am I Hearing?</a></h1>
-          <p>
-             As we lay the first bricks of our musicianship foundation, one question helps us get a sense of where to begin; it snaps everything into focus. What am I hearing? Believe it or not, your answer to this question will reveal a lot about where you are in your approach...
-          </p>
-          <p>
-            <a href="/">Read More</a>
-          </p>
-          <div class="meta">Posted on July 24 2015</div>
-        </article>
-        <article>
-          <h1><a href="/">What Am I Hearing?</a></h1>
-          <p>
-             As we lay the first bricks of our musicianship foundation, one question helps us get a sense of where to begin; it snaps everything into focus. What am I hearing? Believe it or not, your answer to this question will reveal a lot about where you are in your approach...
-          </p>
-          <p>
-            <a href="/">Read More</a>
-          </p>
-          <div class="meta">Posted on July 24 2015</div>
-        </article>
-        <article>
-          <h1><a href="/">What Am I Hearing?</a></h1>
-          <p>
-             As we lay the first bricks of our musicianship foundation, one question helps us get a sense of where to begin; it snaps everything into focus. What am I hearing? Believe it or not, your answer to this question will reveal a lot about where you are in your approach...
-          </p>
-          <p>
-            <a href="/">Read More</a>
-          </p>
-          <div class="meta">Posted on July 24 2015</div>
-        </article>
+        {% for post in site.posts %}
+          <article>
+            <h1>
+              <a href="{{ post.url }}" title="Continue reading '{{ post.title }}'">
+                {{ post.title }}
+              </a>
+            </h1>
+            {{ post.excerpt | truncatewords:75 }}
+            <p>
+              <a href="{{ post.url }}" title="Continue reading '{{ post.title }}'">
+                Read More &raquo;
+              </a>
+            </p>
+            <div class="meta">
+              Posted on {{ post.date | date_to_long_string }}
+            </div>
+          </article>
+        {% endfor %}
       </div>
     </div>
   </body>

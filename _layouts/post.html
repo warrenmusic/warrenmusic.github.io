@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>{{ page.title }} | Blog | warrenmusic</title>
+    <!-- Loading external fonts from Google for the time being... -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600|Montserrat">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="shortcut icon" href="../img/favicon.jpg">
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <div id="page">
+      <nav>
+        <a id="brand" href="/">warrenmusic</a><br>
+        <p><a id="back" href="/blog/">&laquo; Back to the blog</a></p>
+      </nav>
+      <div id="sidebar">
+        <strong>Warren Lain</strong>
+        <div class="meta">
+          Posted on {{ page.date | date_to_long_string }}
+        </div>
+        <ul>
+          <li><a href="https://facebook.com/warrenmusic">Facebook</a></li>
+          <li><a href="https://twitter.com/warrenlain">Twitter</a></li>
+          <li><a href="https://youtube.com/warrenmusic">YouTube</a></li>
+        </ul>
+        <form>
+          <p>
+            Subscribe to the mailing list to get updated with new posts:
+          </p>
+          <input type="text" placeholder="Enter your email...">
+          <button type="submit">
+            Subscribe
+          </button>
+        </form>
+      </div>
+      <div id="posts">
+        <h1>
+          {{ page.title }}
+        </h1>
+        {{ content }}
+        <div id="share">
+          <div
+            class="fb-share-button"
+            data-href="http://warrenlain.com{{ page.url }}"
+            data-layout="button_count">
+          </div>
+          <p>
+            <a
+              href="https://twitter.com/share"
+              class="twitter-share-button"
+              data-via="warrenlain"
+              data-hashtags="warrenmusic"
+              data-text="{{ page.title }}">
+              Tweet
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </body>
+</html>

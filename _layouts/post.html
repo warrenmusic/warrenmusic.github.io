@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="{{ page.content | xml_escape | truncate:160 }}">
     <title>{{ page.title }} | Blog | warrenmusic</title>
     <!-- Loading external fonts from Google for the time being... -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600|Montserrat">
@@ -27,11 +27,15 @@
           <li><a href="https://twitter.com/warrenlain">Twitter</a></li>
           <li><a href="https://youtube.com/warrenmusic">YouTube</a></li>
         </ul>
-        <form>
+        <form
+          action="https://madmimi.com/signups/subscribe/135775"
+          method="post"
+          accept-charset="utf-8"
+          target="_blank">
           <p>
             Subscribe to the mailing list to get updated with new posts:
           </p>
-          <input type="text" placeholder="Enter your email...">
+          <input type="email" name="signup[email]" placeholder="Enter your email..." required>
           <button type="submit">
             Subscribe
           </button>

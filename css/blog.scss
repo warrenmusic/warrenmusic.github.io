@@ -1,0 +1,113 @@
+---
+---
+
+@import "vendor/bourbon/bourbon";
+@import "vendor/neat/neat";
+@import "vendor/normalize";
+@import "variables";
+@import "base";
+
+body {
+  background: $color-grey;
+}
+
+a {
+  color: $color-blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#page {
+  @include outer-container(800px);
+  margin: 0;
+}
+
+nav {
+  @include span-columns(8);
+  @include shift(4);
+  @include pad(0 0 0 2rem)
+}
+
+#brand {
+  color: #111;
+  font-family: $header-font-stack;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  display: inline-block;
+
+  &:hover {
+    color: $color-blue;
+  }
+}
+
+#sidebar {
+  @include span-columns(4);
+  @include pad(2rem 1rem 0 2rem);
+}
+
+#sidebar strong {
+  font-size: 1.1rem;
+}
+
+#sidebar ul {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+#sidebar form {
+  background-color: transparentize($color-blue, .1);
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: .9rem;
+
+  p {
+    margin: 0 0 1rem 0;
+    color: white;
+  }
+
+  input {
+    width: 100%;
+    border: 1px solid #888;
+    border-radius: 0;
+    padding: .3rem .5rem;
+    margin-top: 5px;
+  }
+
+  button {
+    margin-top: 10px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: .3rem .5rem;
+
+    &:hover,
+    &:focus {
+      color: white;
+      background: $color-blue;
+    }
+  }
+}
+
+#posts {
+  @include span-columns(8);
+  @include pad(2rem 0 0 2rem);
+}
+
+#posts article {
+  margin-bottom: 3rem;
+}
+
+#posts h1 {
+  font-size: 1.5rem;
+  font-family: $header-font-stack;
+  margin: 0 0 1rem 0;
+}
+
+.meta {
+  font-size: .8rem;
+  color: #777;
+}

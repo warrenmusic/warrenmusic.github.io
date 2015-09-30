@@ -76,6 +76,7 @@
           document.body.className = '';
         });
         video.play();
+        ga && ga('send', 'event', 'intro-video', 'play');
       });
     </script>
   </body>

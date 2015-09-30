@@ -1,3 +1,5 @@
 exclude: ['Makefile', 'Gemfile', 'Gemfile.lock', 'CNAME']
 sass:
   style: :compressed
+gems:
+  - jekyll-redirect-from

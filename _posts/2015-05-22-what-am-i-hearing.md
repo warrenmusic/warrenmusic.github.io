@@ -2,6 +2,8 @@
 title: What Am I Hearing?
 permalink: /blog/what-am-i-hearing.html
 layout: post
+redirect_from:
+  - /2015/05/22/what-am-i-hearing.html
 ---
 
 As we lay the first bricks of our musicianship foundation, one question helps us get a sense of where to begin; it snaps everything into focus.

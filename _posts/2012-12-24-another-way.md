@@ -2,6 +2,8 @@
 title: Another way...
 permalink: /blog/another-way.html
 layout: post
+redirect_from:
+  - /2012/12/24/another-way.html
 ---
 
 I am convinced that we live in the best time in history to learn music. We download albums in seconds, watch entire concerts on YouTube, and have easy access to tons of educational content. I hear there's even a crazy guy who teaches tons of Radiohead songs for free! It truly is an amazing time for students of music everywhere, isn't it? And yet, I am approached--almost daily--with the same issue students have everywhere in the world... what I call a lack of *fluency* in music.

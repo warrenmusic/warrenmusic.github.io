@@ -2,6 +2,8 @@
 title: From What We Hear to the Music We Make (Fretboard Certainty)
 permalink: /blog/from-what-we-hear-to-the-music-we-make.html
 layout: post
+redirect_from:
+  - /2013/04/26/from-what-we-hear-to-the-music-we-make.html
 ---
 
 People often ask me how I know my way around the fretboard. Perhaps I should call this the "people often ask me" series. Haha. Anyway, if you want a real answer, I am no virtuoso. I am far from it. Guitar fretboard speed is not what I excel at especially when compared to the likes of, say EVH or Greg Koch. Now, there are many programs people look at to build speed: CAGED, the Guitar Grimoire, etc. For shredding and sweep picking, there are plenty of instructional videos. I myself, though, have never really desired to build up virtuosic speed. If there was anything I wanted... it was to just KNOW the fretboard--to have *what I hear* be one with *the music I make*. So I set out to understand how the fretboard works based on my foundation in music theory. And now, if I excel at anything with regard to the technical aspect, it is **fretboard certainty**. I realize exactly where the note I want is at all times without having to guess. How, you might ask? It is the intersection of two concepts:

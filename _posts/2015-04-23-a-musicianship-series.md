@@ -2,6 +2,8 @@
 title: A Musicianship Series
 permalink: /blog/a-musicianship-series.html
 layout: post
+redirect_from:
+  - /2015/04/23/a-musicianship-series.html
 ---
 
 What if someone could walk you through the process of becoming a better musician, step-by-step? What if you could gain something more valuable than a tab or a tutorial, or even hundreds of tabs and tutorials? What if there were a video series that went beyond playing songs and could give you more? And what if it were more affordable than a private teacher, available to you 24/7?

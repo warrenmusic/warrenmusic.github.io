@@ -4,6 +4,7 @@ permalink: /blog/modes-explained.html
 layout: post
 redirect_from:
   - /2013/04/modes-explained/
+  - /2013/04/11/modes-explained.html
 ---
 
 I get a lot of questions about music theory. I thought it would be great to tackle some of these questions and post them on this blog for anyone who might want to chew on ideas in music theory and use them as a jumping off point for making new music or gaining some clarity on the songs they are already studying. So here is my first attempt! Keep in mind, this is a tough one, so until you have a good grasp on the Major Scale, I'd suggest holding off on this explanation until after you learn about that first.

@@ -1,5 +1,5 @@
 ---
-title: A re-design for warrenmusic
+title: A Re-Design For WARRENMUSIC
 layout: post
 permalink: /blog/a-re-design-for-warrenmusic.html
 ---

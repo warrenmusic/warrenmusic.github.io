@@ -4,7 +4,7 @@ layout: post
 permalink: /blog/a-re-design-for-warrenmusic.html
 ---
 Welcome to the new warrenlain.com! This website re-design represents the first
-step towards the greater vision of warrenmusic: a fresh, innovative way to learn
+step towards the greater vision of WARRENMUSIC: a fresh, innovative way to learn
 music and guitar online.
 
 Check out the [first video](http://warrenlain.com "Watch the introduction video") introducing the new warrenmusic

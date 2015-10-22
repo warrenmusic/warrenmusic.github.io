@@ -13,4 +13,4 @@ Quickly defined, **Music Theory** is a language that describes the connections, 
 
 When we combine the two, there is an explosion we call **musicianship**!
 
-Stay tuned. We'll see exactly what **MUSICIANSHIP** can do for you.
+Stay tuned. We'll soon explore exactly what **MUSICIANSHIP** can do for you.

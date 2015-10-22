@@ -3,6 +3,8 @@ title: Introduction To the Bridge
 layout: post
 permalink: /blog/introduction-to-the-bridge.html
 ---
+Watch Episode 2 of The WARRENMUSIC Series now:
+
 https://www.youtube.com/watch?v=DKJBVapBKxE
 
 If you recall [our first video](https://www.youtube.com/watch?v=7wAux1hh9wU), we talked about the GAP that exists between the music we love, and the music we make. This video speaks to the BRIDGE between those two things: Music Theory, and Ear-Training.

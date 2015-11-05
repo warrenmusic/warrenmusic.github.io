@@ -16,7 +16,7 @@ In Episode 4, "[The Trajectory Of the WARRENMUSIC Series](https://youtu.be/Irrvf
 
 The vision of WARRENMUSIC, through my covers and tutorials, chord charts, and now this website has been and always strives to be simple: to help people get more out of the music they love. This website represents the latest and greatest attempt, by providing an approach to music that helps connect the gap we all experience between the music we love and the music we make through **music theory**, and **ear-training**. In the near future, we hope to bring you an amazing _ear-training and theory app_ to help you develop your musicianship like never before.
 
-And in [the WARRENMUSIC Blog](http://warrenlain.com/blog/), it'll be similar. I'll be posting useful resources I find for the benefit of your ear and your insight.
+And here in the WARRENMUSIC Blog, it'll be similar. I'll be posting useful resources I find for the benefit of your ear and your insight.
 
 All the best,
 Warren

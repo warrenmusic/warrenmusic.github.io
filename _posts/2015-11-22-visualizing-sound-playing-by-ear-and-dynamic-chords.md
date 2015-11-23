@@ -16,9 +16,11 @@ Rather than shout, "la-la-la-la-la" when people try to tell us where to put our 
 
 There are three steps to really master playing guitar by ear:
 
-1) Follow what's happening in the music
-2) Process it into scale degrees
-3) Apply it to the instrument
+<pre>
+1) <strong>Follow what's happening in the music<strong>
+2) <strong>Process it into scale degrees<strong>
+3) <strong>Apply it to the instrument<strong>
+</pre>
 
 Playing by ear is actually a process that occurs largely before we touch our instrument. For example, the first step in the process happens primarily in our ears and in our understanding of what we're hearing. And the second step, processing it into scale degrees, is vital if we want to be able to translate the raw sound we are receiving into something concrete. And the third, our ability to apply it to our instrument, requires a familiarity with how our instrument works. When the instrument in our hands, we want to have already put in the work, knowing what we'll play before we play it.
 

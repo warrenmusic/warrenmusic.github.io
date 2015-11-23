@@ -36,7 +36,7 @@ With standard tuning, open chords (as opposed to barre chords) are aplenty. In s
 
 ##2) Identify diatonic chords.
 
-We haven't talked much about diatonic chords, but a quick definitino here will be simply "the chords that belong together in any given key." In a major key, they are usually referred to as I, ii, iii, IV, V, and vi. In the key of C Major, that practically means C Major, D minor, E minor, F Major, G Major, and A minor).
+We haven't talked much about diatonic chords here YET, but a quick definition for now will be simply "the chords that belong together in any given key." In a major key, they are usually referred to as I, ii, iii, IV, V, and vi. In the key of C Major, that practically means C Major, D minor, E minor, F Major, G Major, and A minor).
 
 ##3) Play the scale THROUGH the chord.
 

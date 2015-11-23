@@ -1,4 +1,8 @@
-Visualizing Sound: Playing By Ear and Dynamic Chords
+---
+title: Visualizing Sound: Playing By Ear and Dynamic Chords
+layout: post
+permalink: /blog/visualizing-sound-playing-by-ear-and-dynamic-chords.html
+---
 
 For many of us, visual learning comes easier than auditory. This is why tabs and tutorials flourish on the internet as the predominant forms of learning songs on the guitar.
 

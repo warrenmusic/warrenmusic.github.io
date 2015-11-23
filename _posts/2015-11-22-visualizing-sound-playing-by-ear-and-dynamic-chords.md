@@ -48,7 +48,7 @@ It would look something like this:
 
 And the student would play it in reverse as well, and repeat the process for the next chord, ii, or D Minor, then again with iii (Em), IV (F Major), V (G Major), and vi (Am), all with the C Major scale running through each chord. And when that challenge is done, they would move onto the key of G, and perhaps other keys with open chords.
 
-I found a cool little tool, here, that helps visualize both the chord shape and the scale applied to the fretboard (although it does show the scale over the entire fretboard and might be a little overwhelming).
+I found a cool little tool, [here](http://pickingtools.weebly.com/fretboard-chord-visualizer.html), that helps visualize both the chord shape and the scale applied to the fretboard (although it does show the scale over the entire fretboard and might be a little overwhelming).
 
 The point of this is to create a dynamic understanding of chords through a better understanding of how to apply sounds to the fretboard.
 

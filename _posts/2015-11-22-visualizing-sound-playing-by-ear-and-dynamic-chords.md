@@ -34,7 +34,7 @@ To introduce the final step, I often assign my students this "application to the
 
 It would look something like this:
 
-```
+<pre>
 1E 0-0-0-0-0-0-0-0-0-0-0-0-0-0-**0**-**1**-**3**
 2B 1-1-1-1-1-1-1-1-1-1-1-**0**-**1**-**2**-1-1-1
 3G 0-0-0-0-0-0-0-0-0-**0**-**2**-0-0-0-0-0-0
@@ -44,7 +44,7 @@ It would look something like this:
 
    E-F-G-A-B-C-D-E-F-G-A-B-C-D-E-F-G (Note Names)
    3-4-5-6-7-1-2-3-4-5-6-7-8-2-3-4-5 (Scale Degrees)
-```
+</pre>
 
 And the student would play it in reverse as well, and repeat the process for the next chord, ii, or D Minor, then again with iii (Em), IV (F Major), V (G Major), and vi (Am), all with the C Major scale running through each chord. And when that challenge is done, they would move onto the key of G, and perhaps other keys with open chords.
 

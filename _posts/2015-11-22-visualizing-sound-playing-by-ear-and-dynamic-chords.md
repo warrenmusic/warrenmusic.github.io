@@ -35,12 +35,12 @@ To introduce the final step, I often assign my students this "application to the
 It would look something like this:
 
 <pre>
-1E 0-0-0-0-0-0-0-0-0-0-0-0-0-0-**0**-**1**-**3**
-2B 1-1-1-1-1-1-1-1-1-1-1-**0**-**1**-**2**-1-1-1
-3G 0-0-0-0-0-0-0-0-0-**0**-**2**-0-0-0-0-0-0
-4D 2-2-2-2-2-2-**0**-**2**-**3**-2-2-2-2-2-2-2-2
-5A 3-3-3-**0**-**2**-**3**-3-3-3-3-3-3-3-3-3-3-3
-6E **0**-**1**-**3**-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+1E 0-0-0-0-0-0-0-0-0-0-0-0-0-0-<strong>0</strong>-<strong>1</strong>-<strong>3</strong>
+2B 1-1-1-1-1-1-1-1-1-1-1-<strong>0</strong>-<strong>1</strong>-<strong>2</strong>-1-1-1
+3G 0-0-0-0-0-0-0-0-0-<strong>0</strong>-<strong>2</strong>-0-0-0-0-0-0
+4D 2-2-2-2-2-2-<strong>0</strong>-<strong>2</strong>-<strong>3</strong>-2-2-2-2-2-2-2-2
+5A 3-3-3-<strong>0</strong>-<strong>2</strong>-<strong>3</strong>-3-3-3-3-3-3-3-3-3-3-3
+6E <strong>0</strong>-<strong>1</strong>-<strong>3</strong>-x-x-x-x-x-x-x-x-x-x-x-x-x-x
 
    E-F-G-A-B-C-D-E-F-G-A-B-C-D-E-F-G (Note Names)
    3-4-5-6-7-1-2-3-4-5-6-7-8-2-3-4-5 (Scale Degrees)

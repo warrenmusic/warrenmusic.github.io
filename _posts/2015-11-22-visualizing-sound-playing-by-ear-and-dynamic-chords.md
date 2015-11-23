@@ -17,9 +17,9 @@ Rather than shout, "la-la-la-la-la" when people try to tell us where to put our 
 There are three steps to really master playing guitar by ear:
 
 <pre>
-1) <strong>Follow what's happening in the music<strong>
-2) <strong>Process it into scale degrees<strong>
-3) <strong>Apply it to the instrument<strong>
+1) <strong>Follow what's happening in the music</strong>
+2) <strong>Process it into scale degrees</strong>
+3) <strong>Apply it to the instrument</strong>
 </pre>
 
 Playing by ear is actually a process that occurs largely before we touch our instrument. For example, the first step in the process happens primarily in our ears and in our understanding of what we're hearing. And the second step, processing it into scale degrees, is vital if we want to be able to translate the raw sound we are receiving into something concrete. And the third, our ability to apply it to our instrument, requires a familiarity with how our instrument works. When the instrument in our hands, we want to have already put in the work, knowing what we'll play before we play it.
@@ -28,11 +28,19 @@ Even if we aren't trying to play by ear, and we simply want to have a deeper gra
 
 With piano, this has always been a simple task: lower pitches go to the left, higher pitches go to the right. Half-steps and whole-steps are easy to identify. But with the guitar, this becomes complicated due to there being four directions of melodic movement, which I break down extensively in this earlier post, "Fretboard Certainty."
 
-To introduce the final step, I often assign my students this "application to the guitar" exercise. It's called "Scale Through Chords."
+To introduce the final step, I often assign my students this "application to the guitar" exercise. It's called "Scale Through Chords," and it opens them up to a whole new way of visualizing chord shapes on the guitar.
 
-1) Choose a key with lots of open chords, like C Major.
-2) Identify the I, ii, iii, IV, V, and vi chords (in this case, C, Dm, Em, F, G, Am).
-3) In each chord, begin to play the scale of the chosen THROUGH the chord. Meaning, if the student is playing the I chord (the C Major chord) in the key of C Major, begin to play a C Major Scale THROUGH the C Major chord. In other words, play a C Major scale simultaneously while holding the C Major chord shape, strumming the entire chord with each subsequent scale degree.
+##1) Choose a key with lots of open chords.
+
+With standard tuning, open chords (as opposed to barre chords) are aplenty. In some keys, every diatonic chord can be played as an open chord, like C Major. Let's choose the key of C Major for this example.
+
+##2) Identify diatonic chords.
+
+We haven't talked much about diatonic chords, but a quick definitino here will be simply "the chords that belong together in any given key." In a major key, they are usually referred to as I, ii, iii, IV, V, and vi. In the key of C Major, that practically means C Major, D minor, E minor, F Major, G Major, and A minor).
+
+##3) Play the scale THROUGH the chord.
+
+In each chord, begin to play the scale of the chosen key THROUGH the chord, meaning if the student is playing the I (the C Major chord) in the key of C Major, they would then begin to play a C Major Scale THROUGH the C Major chord. In other words, if you would play a C Major scale simultaneously while holding the C Major chord shape, strumming the entire chord with each subsequent scale degree.
 
 It would look something like this:
 

@@ -1,7 +1,7 @@
 ---
 title: Musicianship And You
 layout: post
-permalink: /blog/what-are-you-hearing-the-core-of-a-song.html
+permalink: /blog/musicianship-and-you.html
 ---
 
 I've been talking a lot about myself up to this point. So let's talk about you.
